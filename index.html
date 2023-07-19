@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitro Books | Home</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navId" class="navSettings">
+      
+        <a href="#section1">Home</a>
+        <a href="#section2">Books</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#section3">About</a>
+        <a href="#section4">Contact</a>
+    </nav>
+    <main id="mainId" class="mainSettings">
+        <section id="section1" class="sec1 sec">
+            <span class="secTitles titleStyle">Nitro Books</span>
+            <div class="saleInfo"><span class="dealInfo">Today's deal &nbsp<span class="dealPercent">65%</span>&nbsp and more...</span></div>
+            <img class="imgBkg" src="assets\bookstoreBkg.jpg" alt="Bookstore Background">
+            <div class="imgList">
+                <img class="categoryImg" src="assets\booksaleBkg.jpg" alt="category1"><h3 class="categoryName">Book sale</h3><p class="categoryDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p><button type="button" class="catBtn btn btn-warning">Shop now</button>
+            </div>
+            <div class="imgList">
+                <img class="categoryImg" src="assets\kitchenwareBkg.jpg" alt="category2"><h3 class="categoryName">Kitchenware</h3><p class="categoryDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p><button type="button" class="catBtn btn btn-warning">Shop now</button>
+            </div>
+            <div class="imgList">
+                <img class="categoryImg" src="assets\techBkg.jpg" alt="category3"><h3 class="categoryName">Technology</h3><p class="categoryDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p><button type="button" class="catBtn btn btn-warning">Shop now</button>
+            </div>
+        </section>
+        <section id="section2" class="sec2 sec"> 
+            <span class="secTitles">Book</span>
+            <h3 class="fictionList ficTitle">Major Genres in Fiction Books</h3><br><br>
+            <p class="fictionList">
+                Here are some major fiction genres you will commonly come across.
+            </p><br>
+            
+            <ol class="fictionList ficList" type="a">
+                <li>Classics</li>
+                <li>Tragedy</li>
+                <li>Sci-Fi</li>
+                <li>Fantasy</li>
+                <li>Action and Adventure</li>
+             </ol><br><br>
+            <p class="fictionList">
+                Here are some major fiction genres you will commonly come across.
+            </p><br>
+            <ul class="fictionList ficList"  style="list-style-type: circle;">
+                <li>Classics</li>
+                <li>Tragedy</li>
+                <ul class="fictionList ficList"  style="list-style-type: square;">
+                    <li>Sci-Fi</li>
+                    <li>Fantasy</li>
+                    <li>Action and Adventure</li>
+                </ul>
+                <li>Sci-Fi</li>
+                <li>Fantasy</li>
+                <li>Action and Adventure</li>
+            </ul>
+        </section>
+        <section id="section3" class="sec3 sec">
+
+            <span class="secTitles sec3Title">About Us</span>
+           
+            <p class="sec3Desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Vivamus at augue eget arcu dictum. Velit dignissim sodales ut eu sem. In pellentesque massa placerat duis ultricies lacus. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut. Mauris sit amet massa vitae tortor condimentum. Non curabitur gravida arcu ac tortor dignissim convallis. Sem et tortor consequat id. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Gravida in fermentum et sollicitudin.</p>
+            <video class="secVideo" id="video" autoplay muted loop>
+                <source src="assets\bookstoreVideo2.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section id="section4" class="sec4 sec">
+          <span class="secTitles">Contact Us</span>
+
+          <form class="formSettings" action="" method="POST">
+            <label >First Name</label><br>
+            <input type="text" name="user_fname" placeholder="Enter your first name..." required><br>
+            <label >Last Name</label><br>
+            <input type="text" name="user_lname" placeholder="Enter your Last name..." required><br>
+            <label >Email</label><br>
+            <input type="email" name="user_email" placeholder="Enter your Email..." required><br>
+            <label >Sub</label><br>
+            <input type="text" name="user_sub" placeholder="Type the subject..." ><br>
+            <label >Message</label><br>
+            <textarea name="user_message" id="" cols="30" rows="10"></textarea><br>
+            <!-- <input type="button" value="Submit"> -->
+            <button type="submit">Submit</button>
+
+          </form>
+        
+        </section>
+    </main>
+    <footer id="footId" class="footerSettings footer mt-auto py-3 bg-light">
+    
+        <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-6 col-md-3 mb-3">
+                  <h5>Customer Services</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-1 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>&copy; 2022 Nitro Books, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+    </footer>
+
+    
+</body>
+</html>

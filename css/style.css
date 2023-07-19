@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+*,html{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navSettings{
+    background-color: #352e2e;
+    color:#f1ebeb;
+    font-family: 'Play', sans-serif;
+    padding:20px;
+    text-align: center;
+}
+.navSettings > a{
+    color:#fff;
+    font-size:25px;
+    padding:20px;
+    text-decoration: none;
+    
+}
+.navSettings > a:hover{
+    background-color: rgb(173, 173, 230);
+    color:#000;
+}
+
+/* end of nav settings */
+
+/* Main settings */
+.mainSettings{
+    width:100%;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+/* section 1 settings */
+.sec1{
+    /* background-color: rgb(212, 212, 223); */
+    /* height:1000px; */
+    /* position:relative; */
+    width:100%;
+    padding:20px;
+    text-align: center;
+    /* background-color: #a3a3bc; */
+   
+    /* overflow: hidden; */
+
+ }
+
+.secTitles{
+    font-size:40px;
+    /* background-color: rgba(17, 14, 21,0.5); */
+    color:rgb(34, 22, 22);
+    padding:2px;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
+
+.titleStyle{
+    /* position:relative; */
+   
+    /* -webkit-animation: movingTitle 5s ease-in-out infinite;
+    animation: movingTitle 5s ease-in-out infinite; */
+
+     /* intial delay for animation */
+     animation-delay: 5s;
+    /* To start the animation . use the keyframe animation name */
+    -webkit-animation: movingTitle 15s ease-in-out ;/*different browser*/
+    animation: movingTitle 15s ease-in-out ;
+    /* To retain the end result of animation */
+    animation-fill-mode: forwards;
+    letter-spacing: 60px;
+    font-size:80px;
+    /* letter-spacing: 40px; */
+    font-weight: 900;
+    text-shadow:5px 5px 25px rgb(241, 241, 231),8px 8px 5px rgb(26, 26, 74);
+    /* text-shadow:5px 15px 6px rgba(0, 0, 0,0.5), 10px 15px 14px rgba(9, 16, 206,0.8); */
+}
+@-webkit-keyframes movingTitle{
+    from {top: -15px;}
+    to {
+        top:0px;
+        letter-spacing: 10px;
+    }
+    }
+
+    @keyframes movingTitle{
+        from {top: -15px;}
+        to {
+            top:0px;
+            letter-spacing: 10px;
+        }
+    } 
+/* @-webkit-keyframes movingTitle{
+from {left: -25px;}
+to {left:0px;}
+}
+
+@keyframes movingTitle{
+    from {left: -25px;}
+    to {left:0px;}
+}  */
+.saleInfo{
+background-color: rgb(122, 122, 218);
+color:rgb(238, 238, 71);
+font-size: 80px;
+/* t r b l - top right bottom left*/
+margin-top: 20px;
+
+padding:20px;
+}
+.dealInfo{
+    font-size: 60px;
+    font-family: 'Rowdies', cursive;
+}
+.dealPercent{
+    font-size: 120px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.sec1 > .imgBkg{
+/* position:relative; */
+margin-top:20px;
+width:100%;
+height:auto;
+
+background-size: cover;
+}
+
+.sec1 > .imgList{
+    /* position:relative; */
+    width:25%;
+    margin:20px;
+    margin-top: 80px;
+    display:inline-block;
+    /*box-shadow: h-offset v-offset blur spread color */
+    box-shadow:5px 5px 15px 0px rgb(113, 111, 118);
+    border:1px solid rgb(139, 131, 131);
+    
+}
+.categoryImg{
+
+width:100%;
+padding:10px;
+border:1px solid black;
+background-color: darkgoldenrod;
+}
+.categoryDesc{
+padding:20px;
+}
+.categoryName{
+    padding:20px;
+    background-color: rgba(108, 175, 237, 0.4);
+}
+.catBtn{
+    margin-bottom: 20px;
+}
+/* section 1 settings ends here*/
+
+/* section 2 settings */
+
+.sec2{
+    width:80%;
+    /* height:600px; */
+    background-color: #eeeaf7;
+    padding:20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 2px #d5d0d0;
+    /* https://uigradients.com/#DarkSkies */
+   
+
+    /* background: linear-gradient(red,green,blue); */
+    /* background: linear-gradient(to top,red,green,blue); */
+    /* background: linear-gradient(to right,red,green,blue);*/
+    /* background: linear-gradient(to bottom,red,green,blue); */
+    /* background: linear-gradient(to left,red,green,blue); */
+}
+.fictionList{
+    padding-left: 30px;
+    text-align: left;
+}
+.ficTitle{
+    padding-top: 60px;
+}
+.ficList{
+    padding-left: 80px;
+}
+/* section 2 settings ends here */
+
+/* section 3 settings */
+
+.sec3{
+    position: relative;
+    width:95%;
+    height: auto;
+    text-align: center;
+    /* background-color: rgb(244, 243, 208); */
+    border: 2px solid black;
+    margin:50px auto;
+    padding: auto;
+    overflow: hidden;
+}
+.secVideo{
+    position: relative;
+    height: auto;
+    width: auto;
+    background-size: cover;
+    width:100%;
+    opacity: 0.4;
+    /* border: 2px solid black; */
+}
+.sec3Title{
+
+    position: absolute;
+    background-color: #211a1a;
+    color:#ffeeff;
+    top:50px;
+    left:40%;
+
+       
+}
+.sec3Desc{
+    position: absolute;
+    background-color: #181c09;
+    color:#d1cef1;
+    top:250px;
+    font-size: 30px;
+    padding: 40px;
+    
+}
+/* section 3 settings ends here */
+
+/* section 4 settings */
+
+.sec4{
+    /* background-color: #ededf5; */
+    width:100%;
+    height:1200px;
+
+}
+
+.formSettings{
+    margin:50px;
+    border-radius: 15px;
+    padding: 30px;
+    /* border: 2px solid rgb(126, 126, 187); */
+    box-shadow: 0px 0px 2px #6f73b0;
+}
+.formSettings > label{
+    font-size: 25px;
+    padding: 10px;
+}
+.formSettings > input[type=text], input[type="email"], input[type="password"]{
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 4px;
+    width: 65%;
+}
+.formSettings > button{
+    background-color:#d3ac49;
+    color:black;
+    font-size:25px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    box-shadow: 2px 3px 3px inset rgb(52, 52, 43);
+    margin-top: 5px;
+
+}
+.formSettings > input[type=text]:focus{
+    border: 1px solid rgb(99, 88, 111);
+    background-color: rgb(208, 217, 232);
+}
+.formSettings > textarea{
+    width: 65%;
+    border-radius: 4px;
+    resize: none;
+}
+.sec{
+    margin-top:20px;
+}
+
+/* section 4 settings ends here */
+
+/* main settings ends here*/
+
+/* footer settings starts here */
+.footerSettings{
+    background-color: rgb(188, 195, 195);
+    /* height:200px; */
+    /* font-size: 30px; */
+    /* text-align: center; */
+    padding: 20px;
+}
+.iconStg{
+    margin-top: 30px;
+}
+
+/* footer settings ends here */
+
